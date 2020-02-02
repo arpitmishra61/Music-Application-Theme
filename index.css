@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(224, 223, 223);
+    
+}
+
+.logo{
+    height: 20vh;
+}
+
+.mainShowcase{
+    background-image: url('https://images.pexels.com/photos/860707/pexels-photo-860707.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500');
+
+
+}
+.content-1{
+    
+    display: flex;
+    height: 80vh;
+}
+
+
+.content-2{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-basis: 80%;   
+   
+}
+.content-2 .body{
+
+  display:flex ;
+}
+  
+  
+ 
+  
+  
+  
+   
+
+
+.content-1 .body input, .container .body button{
+    padding: 20px !important;
+    margin: 0;
+    outline: none;
+    
+}
+
+button{
+  
+  
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+   font-size: 20px;
+padding: 10px;
+
+}
+
+input{
+   flex: 1;
+   
+    font-size:20px !important;
+    height: initial !important;   
+}
+
+button:focus {
+    outline: none;
+}
+
+
+
+.content-1 .body input[type="text"]:focus {
+    
+    box-shadow: none;
+    
+    
+}
+
+
+
+
+.body-2{
+    margin-top: 2px;
+   
+   
+   
+    
+}
+
+.body-2 p{
+
+    font-size: 23px;
+    word-spacing: 0.5em;
+    color:rgb(233, 233, 233);
+   
+    
+}
+
+.body-2 i{
+
+    font-size: 33px;
+}
+
+.musics{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.musics .content{ 
+    flex-basis: 30%;
+    margin-bottom: 15px;
+}
+.musics img{
+    width: 100%;
+    
+    
+}
+
+.appContainer{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    
+}
+
+.appContainer .appImage{
+    flex: 1;
+}
+.appContainer .appDetail{
+    flex: 2;
+
+}
+
+.appContainer .stores{
+    display: flex;
+}
+.appDetail{
+    color: rgb(253, 228, 228) !important;
+}
+.stores img{
+    height:120px;
+}

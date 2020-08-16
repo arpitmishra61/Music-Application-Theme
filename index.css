@@ -142,3 +142,26 @@ button:focus {
 .stores img{
     height:120px;
 }
+
+.musics .content{
+    position: relative;
+}
+.musics .controls{
+    background-color: rgba(194, 19, 247, 0.548);
+    
+   position: absolute;
+   width: 100%;
+   height:100%;
+   top:0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.musics .controls i{
+    font-size: 55px;
+    color: white;
+    cursor: pointer;
+}
